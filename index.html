@@ -1,13 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>CV-bearBenjamin</title>
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>CV-bearBenjamin</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrapper"></div>
+        <header>
+            <navigation class="page-navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#contacts">
+                            <h2 class="navigation-title">Contacts</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#profile">
+                            <h2 class="navigation-title">Profile</h2>
+                        </a>   
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#education">
+                            <h2 class="navigation-title">Education</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-title">
+                        <a class="navigation-link" href="#courses">
+                            <h2 class="navigation-title">Courses</h2>
+                        </a>  
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#skills">
+                            <h2 class="navigation-title">Skills</h2>
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#languages">
+                            <h2 class="navigation-title">Languages</h2>
+                        </a>    
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#code-examples">
+                            <h2 class="navigation-title">Code examples</h2>
+                        </a>         
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#lerning-project">
+                            <h2 class="navigation-title">Learning project</h2>
+                        </a>
+                    </li>
+                </ul>
+            </navigation>
+        </header>
+        <main>
+            <section class="about">
+                <img class="avatar" src="image/Зачетная ава.jpg" width="210" height="210" alt="аватар">
+                <div class="inner-container">
+                    <h1 class="main-title">Bear benjamin</h1>
+                    <p class="about-text">student RS-school</p>
+                    <article class="contacts" id="contacts">
+                        <h2 class="contacts-title">Contacts:</h2>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                                Email:
+                                <a class="contacts-link" href="mailto:ilhakonev@yandex.ru">ilhakonev@yandex.ru</a>
+                            </li>
+                            <li class="contacts-item">
+                                Phone:
+                                <a class="contacts-link" href="tel:+7XXXXXXXXXX">+7 (XXX) XXX XX XX</a>
+                            </li>
+                            <li class="contacts-item">
+                                GitHub:
+                                <a class="contacts-link" href="https://github.com/bearBenjamin">bearBenjamin</a>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="profile" id="profile">
+                <h2 class="profile-title">Profile:</h2>
+                <blockquote>
+                    <p class="profile-text">
+                        Programming is the process of creating instructions for a computer, called programs. Programmers write code in programming languages ​​so that computers can perform specific tasks, such as building websites, apps, or managing complex systems. In simple terms, programming is like giving instructions to a machine in a language it understands.
+                    </p>
+                </blockquote>
+            </section>
+            <section class="education-info">
+                <h2 class="visually-hidden">Info education</h2>
+                <article class="education" id="education">
+                    <h2 class="education-title">Education:</h2>
+                    <ul class="education-list">
+                        <li class="education-item">
+                            <p>Saint-Petersburg State Institute of Technology, 2004</p>
+                            <p>Master of Engineering and Technology</p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="courses" id="courses">
+                    <h2 class="courses-title">Courses:</h2>
+                    <ul class="courses-list">
+                        <li class="courses-item">Hexlet (two courses), 2023</li>
+                        <li class="courses-item">HTML.Academy (present time)</li>
+                        <li class="courses-item">RS-school (present time)</li>
+                    </ul>
+                </article>
+                <article class="skills" id="skills">
+                    <h2 class="skills-title">Skills:</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">HTML, CSS (studying)</li>
+                        <li class="skills-item">JavaScript (studying)</li>
+                        <li class="skills-item">PHP (studying)</li>
+                    </ul>
+                </article>
+                <article class="languages" id="languages">
+                    <h2 class="languages-title">Languages:</h2>
+                    <ul class="languages-list">
+                        <li class="languages-item">Russian (native)</li>
+                        <li class="languages-item">English (beginner)</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="code-examples" id="code-examples">
+                <h2 class="code-examples-title">Code examples:</h2>
+                <h3>Task:</h3>
+                <p class="code-examples-text">String ends with?</p>
+                <h3>programming language:</h3>
+                <p class="code-examples-text">JavaScript</p>
+                <pre class="code-examples-example">
+                    <code>
+                        function solution(str, ending){
+                            let count = 1;
+                            for (let i = ending.length - 1; i >= 0; i -= 1) {
+                                if (ending[i] === str[str.length - count]) {
+                                    count += 1;
+                                } else {
+                                    return false;
+                                }
+                            }
+                            return true;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="lerning-project" id="lerning-project">
+                <h2>Lerning project:</h2>
+                <ul class="lerning-project-list">
+                    <li class="lerning-project-item">
+                        <h3>Html, css</h3>
+                        <ol class="html-list">
+                            <li class="html-item">
+                                <h4>Sedona:</h4>
+                                <ul class="sedona-list">
+                                    <li class="sedona-item">
+                                        <a class="sedona-link" href="https://github.com/bearBenjamin/2274609-sedona-2">
+                                            Project repository on GitHub
+                                        </a>
+                                    </li>
+                                    <li class="sedona-item">
+                                        <a class="sedona-link" href="https://bearbenjamin.github.io/2274609-sedona-2/">
+                                            Deploy project at GitPages
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="html-item">
+                                <h4>Sail-club:</h4>
+                                <ul class="sail-club-list">
+                                    <li class="sail-club-item">
+                                        <a class="sail-club-link" href="https://github.com/bearBenjamin/sail-club">
+                                            Project repository on GitHub
+                                        </a>
+                                    </li>
+                                    <li class="sail-club-item">
+                                        <a class="sail-club-link" href="https://bearbenjamin.github.io/sail-club/">
+                                            Deploy project at GitPages
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="lerning-project-item">
+                        <h3>JavaScript:</h3>
+                        <ol class="javaScript-list">
+                            <li class="javaScript-item">
+                                <a class="javaScript-link" href="https://github.com/bearBenjamin/frontend-project-44">
+                                    Mind games
+                                </a>
+                            </li>
+                            <li class="javaScript-item">
+                                <a class="javaScript-link" href="https://github.com/bearBenjamin/frontend-project-46">
+                                    Difference Calculator
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="copyright-container">
+                    <p>&copy; bearBenjamin, 2025</p>
+                    <p>ilhakonev@yandex.ru</p>
+                </div>
+                <a class="footer-phone" href="tel:+7XXXXXXXXXX">+7 (XXX) XXX XX XX</a>
+                <p class="footer-git">
+                    GitHub:
+                    <a class="footer-git-link" href="https://github.com/bearBenjamin">bearBenjamin</a>
+                </p>
+                <a class="rs-school-link" href="https://app.rs.school/">
+                    <img src="#" width="20" height="20" alt="Логотип RS-school">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
