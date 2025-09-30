@@ -53,3 +53,7 @@ function solution(str, ending){
 + JavaScript:    
 1.[Mind games](https://github.com/bearBenjamin/frontend-project-44)  
 2.[Difference Calculator](https://github.com/bearBenjamin/frontend-project-46)
+
+
+### CERTIFICATES: ###
+1. HTML и CSS. Профессиональная вёрстка сайтов. (25июля 2025 HTML.Academy)
