@@ -9,3 +9,12 @@
 
 ***
 
+### EDUCATION: ###
++ Hexlet (two courses), 2023
++ HTML.Academy (present time)
++ RS-school (present time)
+
+### SKILLS: ###
+- HTML, CSS (studying)
+- JavaScript (studying)
+- PHP (studying)
