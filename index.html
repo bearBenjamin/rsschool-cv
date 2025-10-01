@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>CV-bearBenjamin</title>
+  <link rel="preload" href="assets/font/ptsans-700.woff2" as="font" crossorigin="anonymous" type="font/woff2">
+  <link rel="preload" href="assets/font/ptsans-400.woff2" as="font" crossorigin="anonymous" type="font/woff2">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -52,12 +54,17 @@
               <h2 class="navigation-title">Learning project</h2>
             </a>
           </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#certificates">
+              <h2 class="navigation-title">Certificates</h2>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
     <main class="main-page">
       <section class="about">
-        <img class="avatar" src="assets/image/avatar.jpg" width="210" height="210" alt="аватар">
+        <img class="avatar" src="assets/image/avatar.jpg" width="210" height="210" alt="аватар" loading="lazy">
         <div class="inner-container">
           <h1 class="main-title">Bear benjamin</h1>
           <p class="about-text">student RS-school</p>
@@ -223,6 +230,22 @@
           </li>
         </ul>
       </section>
+      <section class="certificates" id="certificates">
+        <span class="certificates-up">
+          <a class="certificates-up-link" href="#start">up</a>
+        </span>
+        <h2>Certificates:</h2>
+        <ul class="certificates-list">
+          <li class="certificates-item">
+            <a class="certificates-link" href="https://assets.htmlacademy.ru/certificates/intensive/793/2274609.pdf" target="_blank">Профессиональная вёрстка сайтов</a>
+            <span class="certificates-text">25 июля 2025 года HTML Academy</span>
+          </li>
+          <li class="certificates-item">
+            <a class="certificates-link" href="https://assets.htmlacademy.ru/certificates/intensive/667/2274609.pdf" target="_blank">Адаптивная вёрстка и автоматизация</a>
+            <span class="certificates-text">30 сентября 2025 года HTML Academy</span>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="page-footer">
       <div class="footer-container">
@@ -230,7 +253,8 @@
           <p class="copyright">&copy; bearBenjamin, 2025</p>
           <p class="email-footer">
             <span class="visually-hidden">Email</span>
-            <a class="footer-email-link" href="mailto:ilhakonev@yandex.ru">ilhakonev@yandex.ru</a></p>
+            <a class="footer-email-link" href="mailto:ilhakonev@yandex.ru">ilhakonev@yandex.ru</a>
+          </p>
         </div>
         <a class="footer-phone" href="tel:+7XXXXXXXXXX">+7 (XXX) XXX XX XX</a>
         <p class="footer-git">
