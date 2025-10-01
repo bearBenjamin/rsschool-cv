@@ -411,6 +411,7 @@ body {
 
 .lerning-project {
   position: relative;
+  margin-bottom: 50px;
   padding-right: 55px;
   padding-left: 55px;
 }
@@ -523,6 +524,44 @@ body {
 
 .javaScript-item:last-child {
   margin-bottom: 0;
+}
+
+/* certificates */
+.certificates {
+  position: relative;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.certificates-up {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.certificates-up-link {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+
+.certificates-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.certificates-item {
+  margin-bottom: 8px;
+  margin-left: 30px;
+}
+
+.certificates-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+    color:#333333;
 }
 
 /* footer */
