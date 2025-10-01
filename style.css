@@ -473,6 +473,7 @@ body {
   margin-bottom: 4px;
 }
 
+.cat-energy-list,
 .sedona-list,
 .sail-club-list {
   margin: 0;
@@ -480,11 +481,13 @@ body {
   list-style: none;
 }
 
+.cat-energy-item,
 .sedona-item,
 .sail-club-item {
   margin-bottom: 2px;
 }
 
+.cat-energy-link,
 .sedona-link,
 .sail-club-link,
 .javaScript-link {
@@ -496,12 +499,14 @@ body {
   color: #333333;
 }
 
+.cat-energy-link:hover,
 .sedona-link:hover,
 .sail-club-link:hover,
 .javaScript-link:hover {
   color: #756157;
 }
 
+.cat-energy-link:active,
 .sedona-link:active,
 .sail-club-link:active,
 .javaScript-link:active {
